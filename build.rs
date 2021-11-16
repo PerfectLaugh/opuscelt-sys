@@ -23,6 +23,7 @@ fn main() {
     celt.include("opus/include");
     celt.include("opus/celt");
 
+    celt.define("USE_ALLOCA", None);
     celt.define("CUSTOM_MODES", None);
 
     celt.compile("celt");
