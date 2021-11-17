@@ -24,6 +24,7 @@ fn main() {
     celt.include("opus/celt");
 
     celt.define("USE_ALLOCA", None);
+    celt.define("FIXED_POINT", None);
     celt.define("CUSTOM_MODES", None);
 
     celt.compile("celt");
